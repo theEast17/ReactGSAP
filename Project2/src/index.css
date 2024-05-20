@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.string{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: blueviolet;
+}
+
+svg{
+  cursor: pointer;
+  border: 1px solid red;
+}

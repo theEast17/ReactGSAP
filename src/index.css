@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
   margin: 0;
   padding: 0;
@@ -7,7 +11,7 @@ body{
   padding: 20px;
   background-color: rgba(94, 25, 89, 0.523);
 }
-#blue_box,#green_box,#red_box,#white_box{
+#blue_box,#green_box,#red_box,#white_box,#purple_box,#lightgreen_box{
   height: 100px;
   width: 100px;
   border-radius: 20px;
@@ -24,6 +28,15 @@ body{
 }
 #white_box{
   background-color: #fff;
+}
+#purple_box{
+  background-color: purple;
+}
+#lightgreen_box{
+  background-color: lightgreen;
+}
+section{
+  margin-top: 200px;
 }
 
 .box{
@@ -51,3 +64,4 @@ body{
 .pink_box:nth-child(5){
   background-color: rgb(249, 5, 168);
 }
+
